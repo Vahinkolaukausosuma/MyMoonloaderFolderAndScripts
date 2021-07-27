@@ -1,0 +1,100 @@
+local Aim = require "lib.Aim"
+local memory =	require"memory"
+local Vector = require"lib.vector3d"
+local mad = require "MoonAdditions"
+local sampev = require"lib.samp.events"
+local Vector = require"lib.vector3d"
+
+local Trace = mad.get_collision_between_points
+local no = 11
+local ninety = math.pi/2
+pos = Vector(0,0,0)
+dir = Vector(0,0,0)
+function getAimVector(ass)
+	local yaw = memory.getfloat(0xB6F258,false)
+	local pitch = memory.getfloat(0xB6F248,false)
+	x = (math.cos(yaw)*math.cos(pitch))
+	y = (math.sin(yaw)*math.cos(pitch)) 
+	z = math.sin(pitch)
+	return Vector(-x*ass,-y*ass,z*ass)
+end
+
+sampev.onAimSync = function(player,data)
+	pos = Vector(data.camPos.x,data.camPos.y,data.camPos.z)
+	dir = Vector(data.camFront.x,data.camFront.y,data.camFront.z)
+end
+
+function getTraceHitPosEx(p1,p2)
+	aa = Trace(p1.x,p1.y,p1.z,p2.x,p2.y,p2.z)
+	if aa and aa.position then
+		local a = tostring(aa.position)
+		if a then
+			local Addr = memory.getint32(tonumber((string.sub(a,11,string.len(a)))))
+			local x = memory.getfloat(Addr,false)
+			local y = memory.getfloat(Addr+4,false)
+			local z = memory.getfloat(Addr+8,false)
+			return Vector(x,y,z)
+		end
+	end
+	return Vector(0,0,0)
+end
+
+function getRightAngleAimVector(ass)
+	if not ass then ass = 1 end
+	local yaw = memory.getfloat(0xB6F258,false)+(math.pi/2)
+	local pitch = memory.getfloat(0xB6F248,false)
+	x = (math.cos(yaw)*math.cos(pitch))
+	y = (math.sin(yaw)*math.cos(pitch))
+	return Vector(-x*ass,-y*ass,0)
+end
+
+ang = 0
+function main()
+	if not isSampLoaded() or not isSampfuncsLoaded() then return end
+	while not isSampAvailable() do
+		wait(200)
+	end
+	
+	for i = 0,5 do
+		memory.write(0x05231CA+i, 144,1, false)
+	end
+	--[[
+	while trtue do
+		wait(6)
+		--if Aim.getActiveCamMode() == 53 then
+		
+		local pos = Vector(getCharCoordinates(PLAYER_PED))+Vector(0,0,0.6)
+		local dir = getAimVector(400)
+		local tempRight = getAimVector(1)
+		
+		local dirRight = Vector(0,0,0)
+		dirRight.x = tempRight.x * math.cos(ninety) - tempRight.y * math.sin(ninety)
+		dirRight.y = tempRight.x * math.sin(ninety) + tempRight.y * math.cos(ninety)
+		
+		
+		local hitpos = getTraceHitPosEx(pos,pos+dir+Vector(0,0,30.5)-(dirRight*20))
+		X,Y = convert3DCoordsToScreen(hitpos:get())
+		
+		--distance = getDistanceBetweenCoords3d(xx,yy,zz,xxx2,yyy2,zzz2)  -- 050A
+		X,Y = math.floor(X),math.floor(Y)
+		--printStringNow(math.floor(distance), 1000)
+		X = X
+		Y = Y+2
+		renderDrawLine(X-no,Y-2,X+no,Y-2, 4, 0xFFF800FF)
+		renderDrawLine(X-2,Y+no,X-2,Y-no, 4, 0xFFFF00FF)
+		--end
+	end
+	--]]
+	while true do
+		wait(6)
+		
+		
+		X,Y = convert3DCoordsToScreen(pos:get())
+		X2,Y2 = convert3DCoordsToScreen((pos+(dir*2)):get())
+		
+		renderDrawLine(X,Y,X2,Y2, 2, 0xFFFF00FF)
+		
+	end
+	
+end
+

@@ -1,0 +1,308 @@
+[14:19:15.626243] (system)	Session started.
+[14:19:15.626243] (debug)	Module handle: 53D10000
+
+MoonLoader v.026.5-beta loaded.
+Developers: FYP, hnnssy, EvgeN 1137
+
+Copyright (c) 2016, BlastHack Team
+http://blast.hk/moonloader/
+
+[14:19:15.626243] (info)	Working directory: C:\Users\Jonni\Desktop\SAnd3\moonloader
+[14:19:15.626243] (debug)	FP Control: 0009001F
+[14:19:15.626243] (debug)	Game: GTA SA 1.0.0.0 US
+[14:19:15.626243] (system)	Installing pre-game hooks...
+[14:19:15.626243] (system)	Hooks installed.
+[14:19:18.818505] (debug)	Initializing opcode handler table
+[14:19:18.818556] (debug)	package.path = C:\Users\Jonni\Desktop\SAnd3\moonloader\lib\?.lua;C:\Users\Jonni\Desktop\SAnd3\moonloader\lib\?\init.lua;C:\Users\Jonni\Desktop\SAnd3\moonloader\?.lua;C:\Users\Jonni\Desktop\SAnd3\moonloader\?\init.lua;.\?.lua;C:\Users\Jonni\Desktop\SAnd3\moonloader\lib\?.luac;C:\Users\Jonni\Desktop\SAnd3\moonloader\lib\?\init.luac;C:\Users\Jonni\Desktop\SAnd3\moonloader\?.luac;C:\Users\Jonni\Desktop\SAnd3\moonloader\?\init.luac;.\?.luac
+[14:19:18.818556] (debug)	package.cpath = C:\Users\Jonni\Desktop\SAnd3\moonloader\lib\?.dll;
+[14:19:18.819509] (system)	Loading script 'C:\Users\Jonni\Desktop\SAnd3\moonloader\100FPSSpeedo.lua'...
+[14:19:18.819509] (debug)	New script: 0DFCF084
+[14:19:18.827514] (system)	100FPSSpeedo.lua: Loaded successfully.
+[14:19:18.827514] (system)	Loading script 'C:\Users\Jonni\Desktop\SAnd3\moonloader\AccelerationGraph.lua'...
+[14:19:18.828516] (debug)	New script: 01C0CF1C
+[14:19:18.833522] (system)	AccelerationGraph.lua: Loaded successfully.
+[14:19:18.833522] (system)	Loading script 'C:\Users\Jonni\Desktop\SAnd3\moonloader\AutoReboot.lua'...
+[14:19:18.833522] (debug)	New script: 0DFE0B34
+[14:19:18.835521] (system)	ML-AutoReboot: Loaded successfully.
+[14:19:18.835521] (system)	Loading script 'C:\Users\Jonni\Desktop\SAnd3\moonloader\CamHack.lua'...
+[14:19:18.835521] (debug)	New script: 0DFE2CC4
+[14:19:18.837523] (system)	CamHack.lua: Loaded successfully.
+[14:19:18.837523] (system)	Loading script 'C:\Users\Jonni\Desktop\SAnd3\moonloader\ChatCommandLua.lua'...
+[14:19:18.837523] (debug)	New script: 0DFE2E4C
+[14:19:18.847533] (system)	ChatCommandLua.lua: Loaded successfully.
+[14:19:18.847533] (system)	Loading script 'C:\Users\Jonni\Desktop\SAnd3\moonloader\CounterSteer.lua'...
+[14:19:18.847533] (debug)	New script: 0DFE59EC
+[14:19:18.850535] (system)	CounterSteer.lua: Loaded successfully.
+[14:19:18.850535] (system)	Loading script 'C:\Users\Jonni\Desktop\SAnd3\moonloader\Crosshair.lua'...
+[14:19:18.850535] (debug)	New script: 0DFEAB84
+[14:19:18.853537] (system)	Crosshair.lua: Loaded successfully.
+[14:19:18.853537] (system)	Loading script 'C:\Users\Jonni\Desktop\SAnd3\moonloader\DrawBullets.lua'...
+[14:19:18.853537] (debug)	New script: 0DFECD14
+[14:19:18.861544] (system)	DrawBullets.lua: Loaded successfully.
+[14:19:18.862547] (system)	Loading script 'C:\Users\Jonni\Desktop\SAnd3\moonloader\FPS.lua'...
+[14:19:18.862547] (debug)	New script: 0DFD8184
+[14:19:18.867550] (system)	FPS.lua: Loaded successfully.
+[14:19:18.867550] (system)	Loading script 'C:\Users\Jonni\Desktop\SAnd3\moonloader\Ghost.lua'...
+[14:19:18.867550] (debug)	New script: 0DFD830C
+[14:19:18.870553] (system)	Ghost.lua: Loaded successfully.
+[14:19:18.870553] (system)	Loading script 'C:\Users\Jonni\Desktop\SAnd3\moonloader\keybinder.lua'...
+[14:19:18.870553] (debug)	New script: 0DFD79DC
+[14:19:18.882564] (system)	keybinder.lua: Loaded successfully.
+[14:19:18.882564] (system)	Loading script 'C:\Users\Jonni\Desktop\SAnd3\moonloader\MoreGas.lua'...
+[14:19:18.882564] (debug)	New script: 0DFD7FFC
+[14:19:18.884566] (system)	MoreGas.lua: Loaded successfully.
+[14:19:18.884566] (system)	Loading script 'C:\Users\Jonni\Desktop\SAnd3\moonloader\printDmgDone.lua'...
+[14:19:18.884566] (debug)	New script: 0DFD8494
+[14:19:18.893574] (error)	printDmgDone.lua: C:\Users\Jonni\Desktop\SAnd3\moonloader\printDmgDone.lua:12: attempt to index global 'sampev' (a nil value)
+stack traceback:
+	C:\Users\Jonni\Desktop\SAnd3\moonloader\printDmgDone.lua:12: in main chunk
+[14:19:18.893574] (error)	printDmgDone.lua: Script died due to an error. (0DFD8494)
+[14:19:18.894575] (system)	Loading script 'C:\Users\Jonni\Desktop\SAnd3\moonloader\RayTraceColors.lua'...
+[14:19:18.894575] (debug)	New script: 0DFD7E74
+[14:19:18.897578] (system)	RayTraceColors.lua: Loaded successfully.
+[14:19:18.897578] (system)	Loading script 'C:\Users\Jonni\Desktop\SAnd3\moonloader\RayTraceColors_Old.lua'...
+[14:19:18.897578] (debug)	New script: 0DFD7B64
+[14:19:18.900580] (system)	RayTraceColors_Old.lua: Loaded successfully.
+[14:19:18.900580] (system)	Loading script 'C:\Users\Jonni\Desktop\SAnd3\moonloader\Reconnect.lua'...
+[14:19:18.901581] (debug)	New script: 0DFD7CEC
+[14:19:18.903583] (system)	Reconnect.lua: Loaded successfully.
+[14:19:18.903583] (system)	Loading script 'C:\Users\Jonni\Desktop\SAnd3\moonloader\SaveObjects.lua'...
+[14:19:18.903583] (debug)	New script: 0DFD8494
+[14:19:18.905585] (system)	SaveObjects.lua: Loaded successfully.
+[14:19:18.905585] (system)	Loading script 'C:\Users\Jonni\Desktop\SAnd3\moonloader\SensitivityFix.lua'...
+[14:19:18.905585] (debug)	New script: 0DFD861C
+[14:19:18.906586] (system)	SensitivityFix.lua: Loaded successfully.
+[14:19:18.906586] (system)	Loading script 'C:\Users\Jonni\Desktop\SAnd3\moonloader\SF Integration.lua'...
+[14:19:18.906586] (debug)	New script: 0DFD87A4
+[14:19:18.910589] (system)	SF Integration: Loaded successfully.
+[14:19:18.910589] (system)	Loading script 'C:\Users\Jonni\Desktop\SAnd3\moonloader\wh.lua'...
+[14:19:18.910589] (debug)	New script: 0DFF93A4
+[14:19:18.914593] (system)	wh.lua: Loaded successfully.
+[14:19:18.914593] (system)	Loading script 'C:\Users\Jonni\Desktop\SAnd3\moonloader\WheelAndPedals.lua'...
+[14:19:18.914593] (debug)	New script: 0DFF9CD4
+[14:19:18.924602] (system)	WheelAndPedals.lua: Loaded successfully.
+[14:19:18.924602] (system)	Loading script 'C:\Users\Jonni\Desktop\SAnd3\moonloader\WideScreenWS_TextDraws_FIX.lua'...
+[14:19:18.924602] (debug)	New script: 0DFF983C
+[14:19:18.932611] (system)	WideScreenWS_TextDraws_FIX.lua: Loaded successfully.
+[14:19:18.932611] (system)	Loading script 'C:\Users\Jonni\Desktop\SAnd3\moonloader\yeboi.lua'...
+[14:19:18.932611] (debug)	New script: 0DFF99C4
+[14:19:18.935612] (system)	yeboi.lua: Loaded successfully.
+[14:19:18.937615] (system)	CamHack.lua: Script terminated. (0DFE2CC4)
+[14:19:18.937615] (system)	FPS.lua: Script terminated. (0DFD8184)
+[14:19:18.938615] (system)	Ghost.lua: Script terminated. (0DFD830C)
+[14:19:19.914674] (system)	Installing post-load hooks...
+[14:19:19.914674] (system)	Hooks installed.
+[14:19:20.788469] (script)	yeboi.lua: pootis, Jonni
+[14:19:20.788469] (script)	yeboi.lua: no
+[14:19:20.788469] (system)	yeboi.lua: Script terminated. (0DFF99C4)
+[14:19:34.891998] (script)	Crosshair.lua: 3dcrosshair : true
+[14:19:34.891998] (script)	keybinder.lua: 3dcrosshair : true
+[14:19:36.810745] (script)	Crosshair.lua: 3dcrosshair : false
+[14:19:36.810745] (script)	keybinder.lua: 3dcrosshair : false
+[14:19:37.241138] (script)	Crosshair.lua: 3dcrosshair : true
+[14:19:37.241138] (script)	keybinder.lua: 3dcrosshair : true
+[14:19:46.260315] (script)	Crosshair.lua: 3dcrosshair : false
+[14:19:46.260315] (script)	keybinder.lua: 3dcrosshair : false
+[14:19:46.615555] (script)	Crosshair.lua: 3dcrosshair : true
+[14:19:46.615555] (script)	keybinder.lua: 3dcrosshair : true
+[14:19:46.937848] (script)	Crosshair.lua: 3dcrosshair : false
+[14:19:46.937848] (script)	keybinder.lua: 3dcrosshair : false
+[14:23:38.290282] (script)	ML-AutoReboot: Reloading "keybinder.lua"...
+[14:23:38.299290] (system)	keybinder.lua: Script terminated. (0DFD79DC)
+[14:23:38.299290] (system)	Loading script 'C:\Users\Jonni\Desktop\SAnd3\moonloader\keybinder.lua'...
+[14:23:38.299290] (debug)	New script: 0DFF9FE4
+[14:23:38.302293] (system)	keybinder.lua: Loaded successfully.
+[14:23:46.857710] (script)	ML-AutoReboot: Reloading "keybinder.lua"...
+[14:23:46.867719] (system)	keybinder.lua: Script terminated. (0DFF9FE4)
+[14:23:46.867719] (system)	Loading script 'C:\Users\Jonni\Desktop\SAnd3\moonloader\keybinder.lua'...
+[14:23:46.867719] (debug)	New script: 0DFF9B4C
+[14:23:46.870722] (system)	keybinder.lua: Loaded successfully.
+[14:23:53.220797] (script)	Crosshair.lua: 3dcrosshair : true
+[14:23:53.220797] (script)	keybinder.lua: keybinder : false
+[14:23:53.908041] (script)	Crosshair.lua: 3dcrosshair : false
+[14:23:53.908041] (script)	keybinder.lua: keybinder : true
+[14:23:54.655291] (script)	Crosshair.lua: 3dcrosshair : true
+[14:23:54.655291] (script)	keybinder.lua: keybinder : false
+[14:24:16.655870] (script)	ML-AutoReboot: Reloading "keybinder.lua"...
+[14:24:16.664877] (system)	keybinder.lua: Script terminated. (0DFF9B4C)
+[14:24:16.664877] (system)	Loading script 'C:\Users\Jonni\Desktop\SAnd3\moonloader\keybinder.lua'...
+[14:24:16.664877] (debug)	New script: 0DFF952C
+[14:24:16.666878] (system)	keybinder.lua: Loaded successfully.
+[14:24:18.448279] (script)	keybinder.lua: /rollfall
+[14:24:21.928334] (script)	keybinder.lua: /rollfall
+[14:24:22.103493] (script)	keybinder.lua: /rollfall
+[14:24:22.266642] (script)	keybinder.lua: /rollfall
+[14:25:35.934265] (script)	ML-AutoReboot: Reloading "keybinder.lua"...
+[14:25:35.944274] (system)	keybinder.lua: Script terminated. (0DFF952C)
+[14:25:35.944274] (system)	Loading script 'C:\Users\Jonni\Desktop\SAnd3\moonloader\keybinder.lua'...
+[14:25:35.944274] (debug)	New script: 0DFF8BFC
+[14:25:35.946275] (system)	keybinder.lua: Loaded successfully.
+[14:25:59.642778] (script)	ML-AutoReboot: Reloading "keybinder.lua"...
+[14:25:59.651787] (system)	keybinder.lua: Script terminated. (0DFF8BFC)
+[14:25:59.651787] (system)	Loading script 'C:\Users\Jonni\Desktop\SAnd3\moonloader\keybinder.lua'...
+[14:25:59.651787] (debug)	New script: 0DFF8BFC
+[14:25:59.654789] (error)	keybinder.lua: C:\Users\Jonni\Desktop\SAnd3\moonloader\keybinder.lua:10: attempt to index global 'binds' (a nil value)
+stack traceback:
+	C:\Users\Jonni\Desktop\SAnd3\moonloader\keybinder.lua:10: in function 'Bind'
+	C:\Users\Jonni\Desktop\SAnd3\moonloader\keybinder.lua:13: in main chunk
+[14:25:59.654789] (error)	keybinder.lua: Script died due to an error. (0DFF8BFC)
+[14:26:07.729241] (script)	ML-AutoReboot: Loading "C:\Users\Jonni\Desktop\SAnd3\moonloader\keybinder.lua"...
+[14:26:07.729241] (system)	Loading script 'C:\Users\Jonni\Desktop\SAnd3\moonloader\keybinder.lua'...
+[14:26:07.729241] (debug)	New script: 0DFFA16C
+[14:26:07.732245] (system)	keybinder.lua: Loaded successfully.
+[14:26:08.838250] (script)	keybinder.lua: /rollfall
+[14:26:09.323762] (script)	keybinder.lua: /rollfall
+[14:26:10.167440] (script)	keybinder.lua: /rollfall
+[14:26:10.329588] (script)	keybinder.lua: /rollfall
+[14:26:10.489736] (script)	keybinder.lua: /rollfall
+[14:26:10.669900] (script)	keybinder.lua: /rollfall
+[14:26:10.832047] (script)	keybinder.lua: /rollfall
+[14:26:10.993194] (script)	keybinder.lua: /rollfall
+[14:26:11.190373] (script)	keybinder.lua: /rollfall
+[14:26:11.355523] (script)	keybinder.lua: /rollfall
+[14:27:07.850952] (script)	ML-AutoReboot: Reloading "keybinder.lua"...
+[14:27:07.861962] (system)	keybinder.lua: Script terminated. (0DFFA16C)
+[14:27:07.861962] (system)	Loading script 'C:\Users\Jonni\Desktop\SAnd3\moonloader\keybinder.lua'...
+[14:27:07.861962] (debug)	New script: 0DFF9094
+[14:27:07.863964] (system)	keybinder.lua: Loaded successfully.
+[14:27:08.851030] (script)	keybinder.lua: /rollfall
+[14:27:09.931013] (script)	keybinder.lua: /rollfall
+[14:27:10.148756] (script)	keybinder.lua: /rollfall
+[14:27:10.343933] (script)	keybinder.lua: /rollfall
+[14:27:10.507081] (script)	keybinder.lua: /rollfall
+[14:27:10.669229] (script)	keybinder.lua: /rollfall
+[14:27:11.077600] (script)	keybinder.lua: /rollfall
+[14:27:11.518878] (script)	keybinder.lua: /rollfall
+[14:27:11.711052] (script)	keybinder.lua: /rollfall
+[14:27:11.888921] (script)	keybinder.lua: /rollfall
+[14:27:36.128746] (script)	ML-AutoReboot: Reloading "keybinder.lua"...
+[14:27:36.137754] (system)	keybinder.lua: Script terminated. (0DFF9094)
+[14:27:36.138666] (system)	Loading script 'C:\Users\Jonni\Desktop\SAnd3\moonloader\keybinder.lua'...
+[14:27:36.138666] (debug)	New script: 0DFF9FE4
+[14:27:36.141663] (system)	keybinder.lua: Loaded successfully.
+[14:27:58.365512] (script)	ML-AutoReboot: Reloading "keybinder.lua"...
+[14:27:58.375520] (system)	keybinder.lua: Script terminated. (0DFF9FE4)
+[14:27:58.375520] (system)	Loading script 'C:\Users\Jonni\Desktop\SAnd3\moonloader\keybinder.lua'...
+[14:27:58.375520] (debug)	New script: 0DFF9B4C
+[14:27:58.377523] (system)	keybinder.lua: Loaded successfully.
+[14:28:19.030392] (script)	ML-AutoReboot: Reloading "keybinder.lua"...
+[14:28:19.041146] (system)	keybinder.lua: Script terminated. (0DFF9B4C)
+[14:28:19.041146] (system)	Loading script 'C:\Users\Jonni\Desktop\SAnd3\moonloader\keybinder.lua'...
+[14:28:19.041146] (debug)	New script: 0DFF952C
+[14:28:19.043147] (system)	keybinder.lua: Loaded successfully.
+[14:28:25.107525] (script)	ML-AutoReboot: Reloading "keybinder.lua"...
+[14:28:25.117536] (system)	keybinder.lua: Script terminated. (0DFF952C)
+[14:28:25.118535] (system)	Loading script 'C:\Users\Jonni\Desktop\SAnd3\moonloader\keybinder.lua'...
+[14:28:25.118535] (debug)	New script: 0DFFA47C
+[14:28:25.121538] (system)	keybinder.lua: Loaded successfully.
+[14:28:35.708452] (script)	ML-AutoReboot: Reloading "keybinder.lua"...
+[14:28:35.717963] (system)	keybinder.lua: Script terminated. (0DFFA47C)
+[14:28:35.717963] (system)	Loading script 'C:\Users\Jonni\Desktop\SAnd3\moonloader\keybinder.lua'...
+[14:28:35.717963] (debug)	New script: 0DFF8BFC
+[14:28:35.719965] (system)	keybinder.lua: Loaded successfully.
+[14:32:06.991951] (script)	ML-AutoReboot: Reloading "keybinder.lua"...
+[14:32:07.001958] (system)	keybinder.lua: Script terminated. (0DFF8BFC)
+[14:32:07.001958] (system)	Loading script 'C:\Users\Jonni\Desktop\SAnd3\moonloader\keybinder.lua'...
+[14:32:07.001958] (debug)	New script: 0DFF952C
+[14:32:07.001958] (error)	keybinder.lua: C:\Users\Jonni\Desktop\SAnd3\moonloader\keybinder.lua:8: 'then' expected near ')'
+[14:32:07.001958] (error)	keybinder.lua: Script died due to an error. (0DFF952C)
+[14:32:37.239810] (script)	ML-AutoReboot: Loading "C:\Users\Jonni\Desktop\SAnd3\moonloader\keybinder.lua"...
+[14:32:37.239810] (system)	Loading script 'C:\Users\Jonni\Desktop\SAnd3\moonloader\keybinder.lua'...
+[14:32:37.239810] (debug)	New script: 0DFF8BFC
+[14:32:37.239810] (error)	keybinder.lua: C:\Users\Jonni\Desktop\SAnd3\moonloader\keybinder.lua:8: 'then' expected near ')'
+[14:32:37.239810] (error)	keybinder.lua: Script died due to an error. (0DFF8BFC)
+[14:33:04.021500] (script)	ML-AutoReboot: Loading "C:\Users\Jonni\Desktop\SAnd3\moonloader\keybinder.lua"...
+[14:33:04.021500] (system)	Loading script 'C:\Users\Jonni\Desktop\SAnd3\moonloader\keybinder.lua'...
+[14:33:04.021500] (debug)	New script: 0DFF952C
+[14:33:04.024502] (system)	keybinder.lua: Loaded successfully.
+[14:33:50.526746] (script)	ML-AutoReboot: Reloading "keybinder.lua"...
+[14:33:50.536753] (system)	keybinder.lua: Script terminated. (0DFF952C)
+[14:33:50.536753] (system)	Loading script 'C:\Users\Jonni\Desktop\SAnd3\moonloader\keybinder.lua'...
+[14:33:50.536753] (debug)	New script: 0DFF8D84
+[14:33:50.538754] (system)	keybinder.lua: Loaded successfully.
+[14:34:35.860172] (script)	ML-AutoReboot: Reloading "keybinder.lua"...
+[14:34:35.864174] (system)	keybinder.lua: Script terminated. (0DFF8D84)
+[14:34:35.864174] (system)	Loading script 'C:\Users\Jonni\Desktop\SAnd3\moonloader\keybinder.lua'...
+[14:34:35.864174] (debug)	New script: 0DFF9B4C
+[14:34:35.866176] (system)	keybinder.lua: Loaded successfully.
+[14:35:00.119593] (script)	ML-AutoReboot: Reloading "keybinder.lua"...
+[14:35:00.129602] (system)	keybinder.lua: Script terminated. (0DFF9B4C)
+[14:35:00.129602] (system)	Loading script 'C:\Users\Jonni\Desktop\SAnd3\moonloader\keybinder.lua'...
+[14:35:00.129602] (debug)	New script: 0DFF9B4C
+[14:35:00.131606] (system)	keybinder.lua: Loaded successfully.
+[14:35:22.992842] (script)	ML-AutoReboot: Reloading "keybinder.lua"...
+[14:35:23.001851] (system)	keybinder.lua: Script terminated. (0DFF9B4C)
+[14:35:23.001851] (system)	Loading script 'C:\Users\Jonni\Desktop\SAnd3\moonloader\keybinder.lua'...
+[14:35:23.001851] (debug)	New script: 0DFF952C
+[14:35:23.003852] (system)	keybinder.lua: Loaded successfully.
+[14:36:13.136112] (script)	ML-AutoReboot: Reloading "keybinder.lua"...
+[14:36:13.145120] (system)	keybinder.lua: Script terminated. (0DFF952C)
+[14:36:13.145120] (system)	Loading script 'C:\Users\Jonni\Desktop\SAnd3\moonloader\keybinder.lua'...
+[14:36:13.145120] (debug)	New script: 0DFF9094
+[14:36:13.147121] (system)	keybinder.lua: Loaded successfully.
+[14:38:06.068131] (script)	ML-AutoReboot: Reloading "keybinder.lua"...
+[14:38:06.078140] (system)	keybinder.lua: Script terminated. (0DFF9094)
+[14:38:06.078140] (system)	Loading script 'C:\Users\Jonni\Desktop\SAnd3\moonloader\keybinder.lua'...
+[14:38:06.078140] (debug)	New script: 0DFFA2F4
+[14:38:06.080141] (system)	keybinder.lua: Loaded successfully.
+[14:39:21.847398] (script)	ML-AutoReboot: Reloading "keybinder.lua"...
+[14:39:21.857408] (system)	keybinder.lua: Script terminated. (0DFFA2F4)
+[14:39:21.857408] (system)	Loading script 'C:\Users\Jonni\Desktop\SAnd3\moonloader\keybinder.lua'...
+[14:39:21.857408] (debug)	New script: 0DFF952C
+[14:39:21.859409] (system)	keybinder.lua: Loaded successfully.
+[14:39:41.565063] (script)	ML-AutoReboot: Reloading "keybinder.lua"...
+[14:39:41.575072] (system)	keybinder.lua: Script terminated. (0DFF952C)
+[14:39:41.575072] (system)	Loading script 'C:\Users\Jonni\Desktop\SAnd3\moonloader\keybinder.lua'...
+[14:39:41.575072] (debug)	New script: 0DFF96B4
+[14:39:41.578075] (system)	keybinder.lua: Loaded successfully.
+[14:39:44.208467] (script)	keybinder.lua: /rollfall
+[14:40:40.624964] (script)	ML-AutoReboot: Reloading "keybinder.lua"...
+[14:40:40.634972] (system)	keybinder.lua: Script terminated. (0DFF96B4)
+[14:40:40.634972] (system)	Loading script 'C:\Users\Jonni\Desktop\SAnd3\moonloader\keybinder.lua'...
+[14:40:40.634972] (debug)	New script: 0DFF8F0C
+[14:40:40.636974] (system)	keybinder.lua: Loaded successfully.
+[14:40:48.126606] (script)	keybinder.lua: /en
+[14:41:04.342323] (script)	keybinder.lua: /ex
+[14:41:04.342323] (script)	keybinder.lua: /reload 2 sniper
+[14:42:27.155795] (script)	keybinder.lua: /reload 2 deagle
+[14:42:29.625786] (script)	keybinder.lua: /reload 2 sniper
+[14:42:32.236803] (script)	keybinder.lua: /en
+[14:42:35.061387] (script)	keybinder.lua: /en
+[14:42:36.484645] (script)	keybinder.lua: /en
+[14:42:39.204649] (script)	keybinder.lua: /seehits
+[14:43:35.830916] (script)	ML-AutoReboot: Reloading "keybinder.lua"...
+[14:43:35.840924] (system)	keybinder.lua: Script terminated. (0DFF8F0C)
+[14:43:35.840924] (system)	Loading script 'C:\Users\Jonni\Desktop\SAnd3\moonloader\keybinder.lua'...
+[14:43:35.840924] (debug)	New script: 0DFF96B4
+[14:43:35.840924] (error)	keybinder.lua: C:\Users\Jonni\Desktop\SAnd3\moonloader\keybinder.lua:50: '<eof>' expected near 'end'
+[14:43:35.840924] (error)	keybinder.lua: Script died due to an error. (0DFF96B4)
+[14:43:41.377257] (script)	ML-AutoReboot: Loading "C:\Users\Jonni\Desktop\SAnd3\moonloader\keybinder.lua"...
+[14:43:41.378258] (system)	Loading script 'C:\Users\Jonni\Desktop\SAnd3\moonloader\keybinder.lua'...
+[14:43:41.378258] (debug)	New script: 0DFF96B4
+[14:43:41.380259] (system)	keybinder.lua: Loaded successfully.
+[14:43:48.960974] (script)	ML-AutoReboot: Reloading "keybinder.lua"...
+[14:43:48.971984] (system)	keybinder.lua: Script terminated. (0DFF96B4)
+[14:43:48.971984] (system)	Loading script 'C:\Users\Jonni\Desktop\SAnd3\moonloader\keybinder.lua'...
+[14:43:48.971984] (debug)	New script: 0DFFA16C
+[14:43:48.971984] (error)	keybinder.lua: C:\Users\Jonni\Desktop\SAnd3\moonloader\keybinder.lua:50: '<eof>' expected near 'end'
+[14:43:48.971984] (error)	keybinder.lua: Script died due to an error. (0DFFA16C)
+[14:43:51.991178] (script)	ML-AutoReboot: Loading "C:\Users\Jonni\Desktop\SAnd3\moonloader\keybinder.lua"...
+[14:43:51.992179] (system)	Loading script 'C:\Users\Jonni\Desktop\SAnd3\moonloader\keybinder.lua'...
+[14:43:51.992179] (debug)	New script: 0DFF96B4
+[14:43:51.994183] (system)	keybinder.lua: Loaded successfully.
+[14:44:52.425832] (script)	Crosshair.lua: 3dcrosshair : false
+[14:44:54.495714] (script)	Crosshair.lua: 3dcrosshair : true
+[14:47:09.415737] (script)	keybinder.lua: /reload 2 deagle
+[14:48:03.526034] (script)	keybinder.lua: /cmc 1
+[14:48:05.891004] (script)	MoreGas.lua: Gas multiplier: Enabled
+[14:48:05.917030] (script)	CounterSteer.lua: CounterSteering: true
+[14:48:09.056335] (script)	keybinder.lua: /putnitro
+[14:48:13.784024] (script)	Crosshair.lua: 3dcrosshair : false
+[14:48:46.252865] (script)	keybinder.lua: /putnitro
+[14:48:58.158943] (script)	MoreGas.lua: Gas multiplier: Enabled with traction control
+[14:49:14.532687] (script)	MoreGas.lua: Gas multiplier: Disabled
+[14:49:14.675817] (script)	MoreGas.lua: Gas multiplier: Enabled
+[14:57:28.990412] (script)	keybinder.lua: /seehits
+[15:00:13.725003] (script)	keybinder.lua: /repair
+[15:01:44.497278] (script)	keybinder.lua: /repair
+[15:04:47.735009] (script)	keybinder.lua: /cmc 1

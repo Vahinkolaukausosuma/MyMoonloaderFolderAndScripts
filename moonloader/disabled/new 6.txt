@@ -1,0 +1,20 @@
+local KEY = require"lib.vkeys"
+function Vector(x,y,z) return x,y,z end
+local StartTime = 0
+x,y,z = 0,0,0
+function main()
+	while false do
+		wait(1)
+		if wasKeyPressed(KEY.VK_R) then
+			x,y,z = getCarCoordinates(storeCarCharIsInNoSave(PLAYER_PED))
+			StartTime = gameClock()
+			
+		end
+		if StartTime+1 < gameClock() then
+			X,Y,Z = getCarCoordinates(storeCarCharIsInNoSave(PLAYER_PED))
+			StartTime = 500000
+			print(getDistanceBetweenCoords2d(x,y,z,X,Y,Z).. " ".. X-x .. " " .. getCarSpeed(storeCarCharIsInNoSave(PLAYER_PED)))
+			return 1
+		end
+	end
+end
